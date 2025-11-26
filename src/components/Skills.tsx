@@ -1,36 +1,36 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, TrendingUp, Users, Megaphone, BarChart3, Sparkles } from "lucide-react";
+import { Target, TrendingUp, Users, Calendar, BarChart3, Lightbulb } from "lucide-react";
 
 const skills = [
   {
     icon: Target,
-    title: "User Acquisition",
-    description: "Expert in paid ads, ASO, and organic growth strategies across multiple platforms",
+    title: "Planning & Strategy",
+    description: "10+ years developing integrated marketing strategies and executing 30+ IMC campaigns with 15B VND average budget",
   },
   {
     icon: TrendingUp,
-    title: "Performance Marketing",
-    description: "Data-driven campaigns optimized for ROAS, LTV, and player retention",
+    title: "Digital & Data-driven Marketing",
+    description: "Performance optimization achieving 110-130% NRU targets, ROI 1:1, and reducing CPN by 40%",
   },
   {
     icon: Users,
-    title: "Community Management",
-    description: "Building engaged communities through Discord, social media, and forums",
+    title: "Stakeholder Management",
+    description: "Collaborated with 60+ KOLs, A-list celebrities, and managed cross-functional teams across multiple campaigns",
   },
   {
-    icon: Megaphone,
-    title: "Influencer Marketing",
-    description: "Partnerships with gaming influencers and content creators for maximum reach",
+    icon: Calendar,
+    title: "Event & Community",
+    description: "Organized large-scale events (8,000+ attendees) achieving 150-250% Revenue KPI and 80-200% ROE",
   },
   {
     icon: BarChart3,
-    title: "Analytics & Insights",
-    description: "Deep dive into player behavior, conversion funnels, and campaign performance",
+    title: "Leadership",
+    description: "2+ years in leadership roles managing campaigns, teams, and turning business goals into measurable results",
   },
   {
-    icon: Sparkles,
-    title: "Creative Strategy",
-    description: "Compelling narratives and visual content that resonates with gamers",
+    icon: Lightbulb,
+    title: "Creative Direction",
+    description: "Conceptualized themes, visuals, and interactive engagement activities driving 15M+ views on viral campaigns",
   },
 ];
 

@@ -17,16 +17,16 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <div className="inline-block mb-4 px-4 py-2 rounded-full bg-card border border-primary/20 backdrop-blur-sm">
-            <span className="text-sm font-semibold gradient-text">Game Marketing Specialist</span>
+            <span className="text-sm font-semibold gradient-text">Marketing Leader</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" style={{ fontFamily: "'Poppins', sans-serif" }}>
-            Turning Players Into
-            <span className="gradient-text block mt-2">Passionate Communities</span>
+            Nguyen Tu Anh
+            <span className="gradient-text block mt-2">(Ryn)</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Crafting data-driven campaigns that launch games to success and build lasting player engagement
+            Strategic Planner with 10+ years of experience in data-driven, integrated marketing across digital and offline channels
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
