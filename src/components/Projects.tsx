@@ -1,24 +1,30 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import truTienImg from "@/assets/project-tru-tien.jpg";
+import tieuNgaoImg from "@/assets/project-tieu-ngao.jpg";
+import eventImg from "@/assets/event-offline.jpg";
 
 const projects = [
   {
-    title: "Mobile RPG Launch Campaign",
-    description: "Led the global launch strategy for a mobile RPG, achieving 2M+ downloads in the first month with a 45% retention rate.",
-    metrics: ["2M+ Downloads", "45% Retention", "$500K Revenue"],
-    tags: ["User Acquisition", "Social Media", "Influencer Marketing"],
+    title: "Tru Tien 3D",
+    description: "Successfully launched mobile game project with 1M+ downloads, 15M+ views on viral campaign videos, and 16 large-scale offline community events that significantly boosted brand visibility.",
+    metrics: ["1M+ Downloads", "15M+ Views", "16 Events"],
+    tags: ["Launch Campaign", "Community Events", "Viral Marketing"],
+    image: truTienImg,
   },
   {
-    title: "Esports Tournament Promotion",
-    description: "Coordinated marketing efforts for a major esports tournament, driving 500K+ concurrent viewers and 150% YoY growth.",
-    metrics: ["500K+ Viewers", "150% Growth", "30+ Brands"],
-    tags: ["Event Marketing", "Streaming", "Partnerships"],
+    title: "Thieu Nien Anh Hung",
+    description: "Drove high-impact launch achieving 100% of first-month revenue target with ROI 1:1. Organic NRU exceeded 130% of KPI with stable growth throughout Q1.",
+    metrics: ["100% Revenue KPI", "130% NRU", "ROI 1:1"],
+    tags: ["Performance Marketing", "User Acquisition", "ROI Optimization"],
+    image: tieuNgaoImg,
   },
   {
-    title: "Community Engagement Strategy",
-    description: "Developed and executed community programs that increased Discord membership by 300% and improved player sentiment by 85%.",
-    metrics: ["300% Growth", "85% Positive", "50K Members"],
-    tags: ["Community", "Discord", "Content Creation"],
+    title: "Tran Ma AFK",
+    description: "Spearheaded go-to-market strategy delivering 110% NRU and 120% organic NRU in first month, reducing CPN by 40% through optimized UA and branding.",
+    metrics: ["110% NRU", "120% Organic", "-40% CPN"],
+    tags: ["Go-to-Market", "Cost Optimization", "Branding"],
+    image: eventImg,
   },
 ];
 
@@ -44,6 +50,13 @@ const Projects = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
                 <CardHeader>
                   <CardTitle className="text-xl font-bold group-hover:gradient-text transition-all">
                     {project.title}
