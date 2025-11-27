@@ -14,14 +14,14 @@ const Events = () => {
   const eventImages = [gameverseImg, autumnFestImg, offlineImg];
   
   return (
-    <section id="events" className="py-20 relative">
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
+    <section id="events" className="py-12 sm:py-16 lg:py-20 relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
               {t.events.title}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               {t.events.subtitle}
             </p>
           </div>
@@ -33,7 +33,6 @@ const Events = () => {
                   className="bg-card border-border hover-lift animate-slide-in group overflow-hidden"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-10 transition-opacity"></div>
                   <DialogTrigger asChild>
                     <div className="aspect-video overflow-hidden cursor-pointer">
                       <img 
@@ -44,7 +43,7 @@ const Events = () => {
                     </div>
                   </DialogTrigger>
                   <CardHeader>
-                    <CardTitle className="text-xl font-bold group-hover:gradient-text transition-all">
+                    <CardTitle className="text-xl font-bold">
                       {event.title}
                     </CardTitle>
                   </CardHeader>
