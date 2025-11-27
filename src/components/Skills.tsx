@@ -21,20 +21,20 @@ const Skills = () => {
   const { t } = useLanguage();
   
   return (
-    <section id="skills" className="py-20 bg-muted/20 relative overflow-hidden">
+    <section id="skills" className="py-12 sm:py-16 lg:py-20 bg-muted/20 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-secondary opacity-5"></div>
       
       {/* Floating decorative elements */}
-      <div className="absolute top-10 right-20 w-36 h-36 bg-accent/5 rounded-full blur-2xl animate-float"></div>
-      <div className="absolute bottom-10 left-20 w-40 h-40 bg-primary/5 rounded-full blur-2xl animate-float" style={{ animationDelay: '1.5s' }}></div>
+      <div className="absolute top-10 right-10 sm:right-20 w-28 sm:w-36 h-28 sm:h-36 bg-accent/5 rounded-full blur-2xl animate-float"></div>
+      <div className="absolute bottom-10 left-10 sm:left-20 w-32 sm:w-40 h-32 sm:h-40 bg-primary/5 rounded-full blur-2xl animate-float" style={{ animationDelay: '1.5s' }}></div>
       
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
               {t.skills.title}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               {t.skills.subtitle}
             </p>
           </div>
