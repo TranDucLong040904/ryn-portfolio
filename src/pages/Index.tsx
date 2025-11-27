@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Events from "@/components/Events";
 import Skills from "@/components/Skills";
+import Platforms from "@/components/Platforms";
 import Contact from "@/components/Contact";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -18,6 +19,7 @@ const Index = () => {
       <Projects />
       <Events />
       <Skills />
+      <Platforms />
       <Contact />
       
       <footer className="py-8 text-center text-muted-foreground border-t border-border">
