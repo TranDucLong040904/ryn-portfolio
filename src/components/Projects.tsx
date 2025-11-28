@@ -5,13 +5,14 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { ExternalLink } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import truTienImg from "@/assets/project-tru-tien.jpg";
+import thieuNienImg from "@/assets/project-thieu-nien.jpg";
 import tieuNgaoImg from "@/assets/project-tieu-ngao.jpg";
-import eventImg from "@/assets/event-offline.jpg";
+import tranMaImg from "@/assets/event-offline.jpg";
 
 const Projects = () => {
   const { t } = useLanguage();
   
-  const projectImages = [truTienImg, tieuNgaoImg, eventImg];
+  const projectImages = [truTienImg, thieuNienImg, tieuNgaoImg, tranMaImg];
   
   return (
     <section id="projects" className="py-12 sm:py-16 lg:py-20 relative">
