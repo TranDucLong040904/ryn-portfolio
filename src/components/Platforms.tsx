@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { BarChart3, Megaphone, Share2, Palette, Music, Video } from "lucide-react";
+import { BarChart3, Megaphone, Share2, Palette, Music, Video, Scissors, Image, FileSpreadsheet, Presentation, Facebook, StickyNote, Mail } from "lucide-react";
 
 // Import platform images
 import googleAnalyticsImg from "@/assets/platform-google-analytics.jpg";
@@ -26,7 +26,15 @@ const Platforms = () => {
   const platformIcons: { [key: string]: React.ComponentType<any> } = {
     "TikTok Ads": Video,
     "TikTok": Music,
-    "Canva": Palette
+    "Canva": Palette,
+    "Capcut": Scissors,
+    "CapCut": Scissors,
+    "Photoshop": Image,
+    "Excel": FileSpreadsheet,
+    "PowerPoint": Presentation,
+    "Facebook Blueprint": Facebook,
+    "Notion": StickyNote,
+    "Vero": Mail
   };
 
   // Category icons mapping
@@ -103,19 +111,19 @@ const Platforms = () => {
                           >
                             <div className="flex flex-col items-center justify-center gap-3">
                               {hasImage ? (
-                                <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border/50 group-hover:ring-primary/50 transition-all duration-300 group-hover:scale-110">
+                                <div className="w-16 h-16 rounded-full overflow-hidden ring-0 group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 group-hover:scale-110 bg-white dark:bg-background">
                                   <img 
                                     src={hasImage} 
                                     alt={platform.name}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-contain p-2"
                                   />
                                 </div>
                               ) : PlatformIcon ? (
-                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center ring-2 ring-border/50 group-hover:ring-primary/50 transition-all duration-300 group-hover:scale-110">
+                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center ring-0 group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 group-hover:scale-110">
                                   <PlatformIcon className="w-8 h-8 text-primary" />
                                 </div>
                               ) : (
-                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center ring-2 ring-border/50 group-hover:ring-primary/50 transition-all duration-300 group-hover:scale-110">
+                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center ring-0 group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 group-hover:scale-110">
                                   <span className="text-2xl font-bold text-muted-foreground">
                                     {platform.name.charAt(0)}
                                   </span>

@@ -70,6 +70,13 @@ export const translations = {
           link: "https://thieunien.gamota.com"
         },
         {
+          title: "Tieu Ngao Giang Ho",
+          description: "Successfully executed comprehensive marketing campaign featuring offline community events, influencer partnerships, and integrated digital marketing, driving strong player engagement and community growth.",
+          metrics: ["High Engagement", "Community Events", "Influencer Campaign", "Strong ROI"],
+          tags: ["IMC Campaign", "Community Events", "KOL Management", "Digital Marketing"],
+          link: "https://tieuongao.gamota.com"
+        },
+        {
           title: "Tran Ma AFK",
           description: "Spearheaded the go-to-market strategy, delivering 110% NRU and 120% organic NRU in the first launch month, and reducing CPN by 40% compared to KPI through optimized UA and branding, significantly improving acquisition efficiency.",
           metrics: ["110% NRU Target", "120% Organic NRU", "-40% CPN", "Action C x 1.2M Views"],
@@ -157,8 +164,14 @@ export const translations = {
         { name: "Meta Ads", category: "Advertising" },
         { name: "Appsflyer", category: "Analytics" },
         { name: "TikTok Ads", category: "Advertising" },
-        { name: "TikTok", category: "Social Media" },
-        { name: "Canva", category: "Design" }
+        { name: "CapCut", category: "Design" },
+        { name: "Canva", category: "Design" },
+        { name: "Photoshop", category: "Design" },
+        { name: "Excel", category: "Analytics" },
+        { name: "PowerPoint", category: "Design" },
+        { name: "Facebook Blueprint", category: "Advertising" },
+        { name: "Notion", category: "Design" },
+        { name: "Vero", category: "Social Media" }
       ]
     },
     contact: {
@@ -243,6 +256,13 @@ export const translations = {
           metrics: ["110% Mục tiêu Doanh thu", "ROI 1:1", "130% NRU Tự nhiên", "TVC x Tuấn Hưng"],
           tags: ["Performance Marketing", "Marketing Giới trẻ", "Music Video", "Nghệ sĩ Hạng A", "Thu hút Người dùng"],
           link: "https://thieunien.gamota.com"
+        },
+        {
+          title: "Tiêu Ngạo Giang Hồ",
+          description: "Thực hiện chiến dịch marketing toàn diện với sự kiện cộng đồng offline, hợp tác influencer và marketing digital tích hợp, thúc đẩy tương tác người chơi và tăng trưởng cộng đồng mạnh mẽ.",
+          metrics: ["Tương tác Cao", "Sự kiện Cộng đồng", "Chiến dịch Influencer", "ROI Tốt"],
+          tags: ["Chiến dịch IMC", "Sự kiện Cộng đồng", "Quản lý KOL", "Marketing Số"],
+          link: "https://tieuongao.gamota.com"
         },
         {
           title: "Trấn Ma AFK",
@@ -332,8 +352,14 @@ export const translations = {
         { name: "Meta Ads", category: "Quảng cáo" },
         { name: "Appsflyer", category: "Phân tích" },
         { name: "TikTok Ads", category: "Quảng cáo" },
-        { name: "TikTok", category: "Mạng xã hội" },
-        { name: "Canva", category: "Thiết kế" }
+        { name: "CapCut", category: "Thiết kế" },
+        { name: "Canva", category: "Thiết kế" },
+        { name: "Photoshop", category: "Thiết kế" },
+        { name: "Excel", category: "Phân tích" },
+        { name: "PowerPoint", category: "Thiết kế" },
+        { name: "Facebook Blueprint", category: "Quảng cáo" },
+        { name: "Notion", category: "Thiết kế" },
+        { name: "Vero", category: "Mạng xã hội" }
       ]
     },
     contact: {

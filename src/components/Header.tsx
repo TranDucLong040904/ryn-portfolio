@@ -22,33 +22,48 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-8">
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-foreground/80 hover:text-foreground transition-colors font-medium relative group after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+              className="text-foreground/80 hover:text-primary transition-all duration-300 font-medium relative group hover:drop-shadow-[0_2px_8px_hsl(var(--primary)/0.3)]"
             >
-              {t.nav.about}
+              <span className="relative">
+                {t.nav.about}
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
+              </span>
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
-              className="text-foreground/80 hover:text-foreground transition-colors font-medium relative group after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+              className="text-foreground/80 hover:text-primary transition-all duration-300 font-medium relative group hover:drop-shadow-[0_2px_8px_hsl(var(--primary)/0.3)]"
             >
-              {t.nav.projects}
+              <span className="relative">
+                {t.nav.projects}
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
+              </span>
             </button>
             <button 
               onClick={() => scrollToSection('events')}
-              className="text-foreground/80 hover:text-foreground transition-colors font-medium relative group after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+              className="text-foreground/80 hover:text-primary transition-all duration-300 font-medium relative group hover:drop-shadow-[0_2px_8px_hsl(var(--primary)/0.3)]"
             >
-              {t.nav.events}
+              <span className="relative">
+                {t.nav.events}
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
+              </span>
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
-              className="text-foreground/80 hover:text-foreground transition-colors font-medium relative group after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+              className="text-foreground/80 hover:text-primary transition-all duration-300 font-medium relative group hover:drop-shadow-[0_2px_8px_hsl(var(--primary)/0.3)]"
             >
-              {t.nav.skills}
+              <span className="relative">
+                {t.nav.skills}
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
+              </span>
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-foreground/80 hover:text-foreground transition-colors font-medium relative group after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+              className="text-foreground/80 hover:text-primary transition-all duration-300 font-medium relative group hover:drop-shadow-[0_2px_8px_hsl(var(--primary)/0.3)]"
             >
-              {t.nav.contact}
+              <span className="relative">
+                {t.nav.contact}
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary scale-x-0 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
+              </span>
             </button>
           </div>
 
