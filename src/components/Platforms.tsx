@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { BarChart3, Megaphone, Share2, Palette } from "lucide-react";
+import { BarChart3, Megaphone, Share2, Palette, Music, Video } from "lucide-react";
 
 // Import platform images
 import googleAnalyticsImg from "@/assets/platform-google-analytics.jpg";
@@ -22,8 +22,15 @@ const Platforms = () => {
     "Appsflyer": appsflyerImg
   };
 
+  // Platform specific icons for those without images
+  const platformIcons: { [key: string]: React.ComponentType<any> } = {
+    "TikTok Ads": Video,
+    "TikTok": Music,
+    "Canva": Palette
+  };
+
   // Category icons mapping
-  const categoryIcons: { [key: string]: any } = {
+  const categoryIcons: { [key: string]: React.ComponentType<any> } = {
     "Analytics": BarChart3,
     "Phân tích": BarChart3,
     "Advertising": Megaphone,
@@ -64,7 +71,7 @@ const Platforms = () => {
           
           <div className="space-y-6 sm:space-y-8">
             {Object.entries(groupedPlatforms).map(([category, platforms]: [string, any], categoryIndex) => {
-              const IconComponent = categoryIcons[category];
+              const CategoryIcon = categoryIcons[category];
               
               return (
                 <Card 
@@ -74,9 +81,9 @@ const Platforms = () => {
                 >
                   <CardContent className="p-6 sm:p-8">
                     <div className="flex items-center gap-3 mb-6">
-                      {IconComponent && (
+                      {CategoryIcon && (
                         <div className="p-2.5 rounded-lg bg-primary/10 text-primary">
-                          <IconComponent className="w-5 h-5" />
+                          <CategoryIcon className="w-5 h-5" />
                         </div>
                       )}
                       <Badge variant="secondary" className="text-sm px-4 py-1.5 font-semibold">
@@ -87,36 +94,38 @@ const Platforms = () => {
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
                       {platforms.map((platform: any, index: number) => {
                         const hasImage = platformImages[platform.name];
+                        const PlatformIcon = platformIcons[platform.name];
                         
                         return (
                           <div
                             key={index}
-                            className="group relative bg-background rounded-xl border-2 border-border/50 hover:border-primary/50 transition-all duration-300 overflow-hidden hover-lift"
+                            className="group relative bg-gradient-to-br from-background to-muted/30 rounded-2xl border-2 border-border/50 hover:border-primary/50 transition-all duration-300 overflow-hidden hover-lift p-5"
                           >
-                            {hasImage ? (
-                              <div className="aspect-[4/3] relative overflow-hidden">
-                                <img 
-                                  src={hasImage} 
-                                  alt={platform.name}
-                                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent"></div>
-                                <div className="absolute bottom-0 left-0 right-0 p-3">
-                                  <span className="font-semibold text-sm text-foreground drop-shadow-lg">
-                                    {platform.name}
+                            <div className="flex flex-col items-center justify-center gap-3">
+                              {hasImage ? (
+                                <div className="w-16 h-16 rounded-full overflow-hidden ring-2 ring-border/50 group-hover:ring-primary/50 transition-all duration-300 group-hover:scale-110">
+                                  <img 
+                                    src={hasImage} 
+                                    alt={platform.name}
+                                    className="w-full h-full object-cover"
+                                  />
+                                </div>
+                              ) : PlatformIcon ? (
+                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center ring-2 ring-border/50 group-hover:ring-primary/50 transition-all duration-300 group-hover:scale-110">
+                                  <PlatformIcon className="w-8 h-8 text-primary" />
+                                </div>
+                              ) : (
+                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center ring-2 ring-border/50 group-hover:ring-primary/50 transition-all duration-300 group-hover:scale-110">
+                                  <span className="text-2xl font-bold text-muted-foreground">
+                                    {platform.name.charAt(0)}
                                   </span>
                                 </div>
-                              </div>
-                            ) : (
-                              <div className="aspect-[4/3] flex flex-col items-center justify-center p-4 bg-gradient-to-br from-muted/50 to-muted">
-                                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
-                                  {IconComponent && <IconComponent className="w-6 h-6 text-primary" />}
-                                </div>
-                                <span className="font-semibold text-sm text-foreground text-center">
-                                  {platform.name}
-                                </span>
-                              </div>
-                            )}
+                              )}
+                              
+                              <span className="font-semibold text-sm text-foreground text-center leading-tight">
+                                {platform.name}
+                              </span>
+                            </div>
                           </div>
                         );
                       })}
