@@ -88,7 +88,7 @@ export const translations = {
           description: "In charge of GAMOTA's booth at Vietnam GameVerse, the largest annual gaming festival in Vietnam. The event features GameHub Game Awards, Cosplay Contest, forums, and game talks. GAMOTA was voted best game publisher of 2024 with 45,702 votes.",
           metrics: ["Tens of thousands attendees", "100+ Exhibitors", "Best Publisher 2024", "45,702 Votes"],
           tags: ["Gaming Festival", "Game Awards", "Cosplay Contest", "GAMOTA Booth", "Community"],
-          images: ["/src/assets/event-gameverse.jpg"],
+          images: [],
           link: "https://gameverse.vn"
         },
         {
@@ -96,11 +96,7 @@ export const translations = {
           description: "Organized large-scale offline events for key titles (Tru Tien 3D, Tieu Ngao, Y Thien, AHXD, etc.), achieving 150-250% Revenue KPI and 80-200% ROE. Each event featured master plans, 2D/3D stage designs, and professional Audio-Visual & Lighting setup.",
           metrics: ["150-250% Revenue KPI", "80-200% ROE", "Multiple Titles", "Professional Production"],
           tags: ["Product Launch", "Offline Events", "Stage Design", "ROE Optimization"],
-          images: [
-            "/src/assets/event-game-offline-1.jpg",
-            "/src/assets/event-game-offline-2.jpg",
-            "/src/assets/event-game-offline-3.jpg"
-          ],
+          images: [],
           link: "https://events.gamota.com"
         },
         {
@@ -108,12 +104,7 @@ export const translations = {
           description: "Spearheaded Autumn Fest 2025 - the company's largest music & cultural event with 8,000+ attendees at Vinhomes Royal Island, European Square. A grand celebration combining music, gaming culture, and community engagement.",
           metrics: ["8,000+ Attendees", "Music Festival", "Cultural Event", "Vinhomes Royal Island"],
           tags: ["Music & Culture", "Large-scale Event", "Community", "Entertainment"],
-          images: [
-            "/src/assets/event-autumn-fest.jpg",
-            "/src/assets/event-autumn-fest-2.jpg",
-            "/src/assets/event-autumn-fest-3.jpg",
-            "/src/assets/event-autumn-fest-4.jpg"
-          ],
+          images: [],
           link: "https://autumnfest.gamota.com"
         },
         {
@@ -121,11 +112,7 @@ export const translations = {
           description: "Successfully executed event series (500-1,000 attendees), boosting brand awareness and target audience engagement. Events included K-Eight x Camalis, Cyberpunk Night, La Vela Countdown Party, and Cosplay Contest.",
           metrics: ["500-1,000 Attendees", "Event Series", "Brand Awareness", "Multiple Venues"],
           tags: ["Entertainment", "Event Series", "Music & DJ", "Nightlife"],
-          images: [
-            "/src/assets/event-keight-1.jpg",
-            "/src/assets/event-keight-2.jpg",
-            "/src/assets/event-keight-3.jpg"
-          ],
+          images: [],
           link: "https://keight.vn"
         }
       ]
@@ -276,7 +263,7 @@ export const translations = {
           description: "Phụ trách gian hàng GAMOTA tại Vietnam GameVerse, lễ hội game lớn nhất Việt Nam hàng năm. Sự kiện có GameHub Game Awards, Thi Cosplay, diễn đàn và trò chuyện về game. GAMOTA được bình chọn nhà phát hành game tốt nhất 2024 với 45,702 phiếu.",
           metrics: ["Hàng chục nghìn người tham dự", "100+ Nhà triển lãm", "Nhà phát hành tốt nhất 2024", "45,702 Phiếu bầu"],
           tags: ["Lễ hội Game", "Game Awards", "Thi Cosplay", "Gian hàng GAMOTA", "Cộng đồng"],
-          images: ["/src/assets/event-gameverse.jpg"],
+          images: [],
           link: "https://gameverse.vn"
         },
         {
@@ -284,11 +271,7 @@ export const translations = {
           description: "Tổ chức sự kiện offline quy mô lớn cho các tựa game chính (Tru Tien 3D, Tiếu Ngạo, Ỷ Thiên, AHXD, v.v.), đạt 150-250% KPI Doanh thu và 80-200% ROE. Mỗi sự kiện có kế hoạch tổng thể, thiết kế sân khấu 2D/3D và hệ thống Audio-Visual & Lighting chuyên nghiệp.",
           metrics: ["150-250% KPI Doanh thu", "80-200% ROE", "Nhiều Tựa game", "Sản xuất Chuyên nghiệp"],
           tags: ["Ra mắt Sản phẩm", "Sự kiện Offline", "Thiết kế Sân khấu", "Tối ưu ROE"],
-          images: [
-            "/src/assets/event-game-offline-1.jpg",
-            "/src/assets/event-game-offline-2.jpg",
-            "/src/assets/event-game-offline-3.jpg"
-          ],
+          images: [],
           link: "https://events.gamota.com"
         },
         {
@@ -296,12 +279,7 @@ export const translations = {
           description: "Dẫn dắt Autumn Fest 2025 - sự kiện âm nhạc và văn hóa lớn nhất công ty với 8,000+ người tham dự tại Quảng trường Châu Âu, Vinhomes Royal Island. Lễ hội hoành tráng kết hợp âm nhạc, văn hóa game và gắn kết cộng đồng.",
           metrics: ["8,000+ Người tham dự", "Lễ hội Âm nhạc", "Sự kiện Văn hóa", "Vinhomes Royal Island"],
           tags: ["Âm nhạc & Văn hóa", "Sự kiện Quy mô lớn", "Cộng đồng", "Giải trí"],
-          images: [
-            "/src/assets/event-autumn-fest.jpg",
-            "/src/assets/event-autumn-fest-2.jpg",
-            "/src/assets/event-autumn-fest-3.jpg",
-            "/src/assets/event-autumn-fest-4.jpg"
-          ],
+          images: [],
           link: "https://autumnfest.gamota.com"
         },
         {
@@ -309,11 +287,7 @@ export const translations = {
           description: "Tổ chức thành công chuỗi sự kiện (500-1.000 người tham dự), tăng cường nhận diện thương hiệu và tương tác với khách hàng mục tiêu. Bao gồm K-Eight x Camalis, Cyberpunk Night, La Vela Countdown Party và Thi Cosplay.",
           metrics: ["500-1.000 Người tham dự", "Chuỗi sự kiện", "Nhận diện thương hiệu", "Nhiều Địa điểm"],
           tags: ["Giải trí", "Chuỗi sự kiện", "Âm nhạc & DJ", "Nightlife"],
-          images: [
-            "/src/assets/event-keight-1.jpg",
-            "/src/assets/event-keight-2.jpg",
-            "/src/assets/event-keight-3.jpg"
-          ],
+          images: [],
           link: "https://keight.vn"
         }
       ]

@@ -6,9 +6,33 @@ import { ExternalLink, X } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState } from "react";
 
+// Import event images
+import gameVerseImg from "@/assets/event-gameverse.jpg";
+import gameOffline1Img from "@/assets/event-game-offline-1.jpg";
+import gameOffline2Img from "@/assets/event-game-offline-2.jpg";
+import gameOffline3Img from "@/assets/event-game-offline-3.jpg";
+import autumnFest1Img from "@/assets/event-autumn-fest.jpg";
+import autumnFest2Img from "@/assets/event-autumn-fest-2.jpg";
+import autumnFest3Img from "@/assets/event-autumn-fest-3.jpg";
+import autumnFest4Img from "@/assets/event-autumn-fest-4.jpg";
+import keight1Img from "@/assets/event-keight-1.jpg";
+import keight2Img from "@/assets/event-keight-2.jpg";
+import keight3Img from "@/assets/event-keight-3.jpg";
+
 const Events = () => {
   const { t } = useLanguage();
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+
+  // Map event images
+  const eventImagesMap: { [key: string]: string[] } = {
+    "Vietnam GameVerse": [gameVerseImg],
+    "Game Launch Offline Events": [gameOffline1Img, gameOffline2Img, gameOffline3Img],
+    "Autumn Fest 2025": [autumnFest1Img, autumnFest2Img, autumnFest3Img, autumnFest4Img],
+    "K-Eight Events": [keight1Img, keight2Img, keight3Img],
+    // Vietnamese titles
+    "Sự kiện Offline Ra mắt Game": [gameOffline1Img, gameOffline2Img, gameOffline3Img],
+    "Sự kiện K-Eight": [keight1Img, keight2Img, keight3Img]
+  };
 
   return (
     <section id="events" className="py-12 sm:py-16 lg:py-20 bg-background relative overflow-hidden">
@@ -24,15 +48,18 @@ const Events = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
-            {t.events.events.map((event: any, index: number) => (
+            {t.events.events.map((event: any, index: number) => {
+              const eventImages = eventImagesMap[event.title] || [];
+              
+              return (
               <Card 
                 key={index} 
                 className="bg-card border-border overflow-hidden hover-lift animate-slide-in shadow-card"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-0">
-                  <div className={`grid ${event.images.length > 1 ? 'grid-cols-2' : 'grid-cols-1'} gap-1`}>
-                    {event.images.map((img: string, imgIndex: number) => (
+                  <div className={`grid ${eventImages.length > 1 ? 'grid-cols-2' : 'grid-cols-1'} gap-1`}>
+                    {eventImages.map((img: string, imgIndex: number) => (
                       <div 
                         key={imgIndex}
                         className={`relative ${event.images.length === 1 ? 'col-span-2' : imgIndex === 0 && event.images.length === 3 ? 'col-span-2' : ''} cursor-pointer group overflow-hidden`}
@@ -42,7 +69,7 @@ const Events = () => {
                           src={img}
                           alt={`${event.title} ${imgIndex + 1}`}
                           className={`w-full object-cover transition-transform duration-300 group-hover:scale-105 ${
-                            event.images.length === 1 ? 'h-64' : imgIndex === 0 && event.images.length === 3 ? 'h-48' : 'h-40'
+                            eventImages.length === 1 ? 'h-64' : imgIndex === 0 && eventImages.length === 3 ? 'h-48' : 'h-40'
                           }`}
                         />
                       </div>
@@ -89,7 +116,8 @@ const Events = () => {
                   </div>
                 </CardContent>
               </Card>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
