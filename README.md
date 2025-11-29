@@ -1,73 +1,153 @@
-# Welcome to your Lovable project
+<div align="right">
+  <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=flat-square&logo=github&logoColor=white&labelColor=000080" alt="English"></a>
+  <a href="README.vi.md"><img src="https://img.shields.io/badge/Tiếng_Việt-red?style=flat-square&color=C90000" alt="Tiếng Việt"></a>
+</div>
 
-## Project info
+# 🌟 Ryn Portfolio - Personal Website
 
-**URL**: https://lovable.dev/projects/672cf28a-653b-4856-833b-8e1df85f11d7
+![Banner](https://via.placeholder.com/1200x400?text=Ryn+Portfolio+Banner)
+*(Bạn hãy thay link ảnh banner vào đây)*
 
-## How can I edit this code?
+<div align="center">
 
-There are several ways of editing your application.
+![Repo Size](https://img.shields.io/github/repo-size/TranDucLong040904/ryn-portfolio?style=flat-square&label=Size&color=orange)
+![Last Commit](https://img.shields.io/github/last-commit/TranDucLong040904/ryn-portfolio?style=flat-square&label=Last%20Commit&color=blue)
+![Commit Activity](https://img.shields.io/github/commit-activity/y/TranDucLong040904/ryn-portfolio?style=flat-square&label=Commits/Year&color=red)
+![Stars](https://img.shields.io/github/stars/TranDucLong040904/ryn-portfolio?style=flat-square&color=yellow)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=flat-square)](https://github.com/TranDucLong040904)
 
-**Use Lovable**
+</div>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/672cf28a-653b-4856-833b-8e1df85f11d7) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📖 Introduction
 
-**Use your preferred IDE**
+**Ryn Portfolio** is a modern, responsive personal website designed to showcase a professional portfolio. Built with the latest frontend technologies, the project focuses on UI/UX, smooth animations, and a clean minimalist aesthetic. This project serves as a digital presence for **Ryn** to display projects, skills, and contact information.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📑 Table of Contents
 
-Follow these steps:
+- [Introduction](#introduction)
+- [About the Author](#about-the-author)
+- [Technology Stack](#technology-stack)
+- [Key Features](#key-features)
+- [Installation & Setup](#installation--setup)
+- [Folder Structure](#folder-structure)
+- [Demo Screenshots](#demo-screenshots)
+- [License](#license-bản-quyền)
+- [References](#references)
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 👨‍💻 About the Author
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The project is developed and maintained by:
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Avatar | Information | Contact |
+| :---: | :--- | :--- |
+| <img src="https://github.com/TranDucLong040904.png" width="80" height="80" style="border-radius:50%; object-fit:cover;"/> | **Tran Duc Long** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/TranDucLong040904)<br>[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22010139@st.phenikaa-uni.edu.vn) |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🛠️ Technology Stack
+
+The project is built using modern frontend architecture:
+
+| Component | Technology |
+| :--- | :--- |
+| **Core** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
+| **Styling & UI** | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Shadcn/UI](https://img.shields.io/badge/Shadcn%20UI-000000?style=flat-square&logo=shadcnui&logoColor=white) |
+| **Build Tool** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Lovable](https://img.shields.io/badge/Lovable-FF4154?style=flat-square&logo=lovable&logoColor=white) |
+
+---
+
+## 🚀 Key Features
+
+### 🎨 Interface & UX
+* ✅ **Responsive Design:** Fully compatible with Mobile, Tablet, and Desktop.
+* ✅ **Modern Aesthetics:** Clean, minimalist look using Tailwind CSS.
+* ✅ **Dark/Light Mode:** Seamless theme switching (if implemented).
+* ✅ **Animations:** Smooth transitions and hover effects using Framer Motion/CSS.
+
+### ⚙️ Functionality
+* ✅ **Project Showcase:** Dynamic grid layout to display portfolio items.
+* ✅ **Contact Form:** Integrated form for direct communication.
+* ✅ **Fast Loading:** Optimized build with Vite for high performance.
+* ✅ **Easy Navigation:** Intuitive routing and menu structure.
+
+---
+
+## ⚙️ Installation & Setup
+
+System requirements: `Node.js >= 18.x`, `npm` or `yarn`.
+
+```bash
+# 1. Clone repository
+git clone https://github.com/TranDucLong040904/ryn-portfolio.git
+
+# 2. Navigate to project directory
+cd ryn-portfolio
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
 npm run dev
 ```
+---
+## 📂 Folder Structure
+An overview of the project's source code structure:
+```cmd
+ryn-portfolio/
+├── public/              # Static assets (images, icons)
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── hooks/           # Custom React hooks
+│   ├── pages/           # Main route pages (Index, NotFound, etc.)
+│   ├── lib/             # Utilities and helper functions
+│   ├── App.tsx          # Main application component
+│   └── main.tsx         # Entry point
+├── package.json         # Dependencies and scripts
+└── vite.config.ts       # Vite configuration
+```
+---
+## 🖼️ Demo Screenshots
+<details> <summary>💻 <b>Desktop View - Click to view</b></summary>
 
-**Edit a file directly in GitHub**
+1. Homepage (Hero Section) (Bạn thay link ảnh chụp màn hình Home vào đây)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+2. Portfolio Grid
 
-**Use GitHub Codespaces**
+3. About & Skills
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+</details>
 
-## What technologies are used for this project?
+<details> <summary>📱 <b>Mobile View - Click to view</b></summary>
 
-This project is built with:
+1. Mobile Menu
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. Project Details
 
-## How can I deploy this project?
+</details>
 
-Simply open [Lovable](https://lovable.dev/projects/672cf28a-653b-4856-833b-8e1df85f11d7) and click on Share -> Publish.
+## 📜 License (Copyright)
+This project is created as a personal gift and portfolio.
 
-## Can I connect a custom domain to my Lovable project?
+✅ Allowed: Viewing source code for educational purposes.
 
-Yes, you can!
+❌ Not Allowed: Using this source code for commercial purposes without permission.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The project currently does not have a formal LICENSE file.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🔗 References
+
+* **Live Demo:** [ryn-portfolio.lovable.app](https://ryn-portfolio.lovable.app/)
+* **GitHub Repository:** [ryn-portfolio](https://github.com/TranDucLong040904/ryn-portfolio)
+* **Author's GitHub:** [TranDucLong040904](https://github.com/TranDucLong040904)
+
+⭐ If you like this portfolio, please leave a Star! ⭐
+
+Copyright © 2025 Tran Duc Long
+
+</div>
