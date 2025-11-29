@@ -51,10 +51,10 @@ const Contact = () => {
                 <div className="mb-4 inline-flex p-3 rounded-xl bg-gradient-primary animate-glow-pulse" style={{ animationDelay: '0.4s' }}>
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">{t.contact.location}</h3>
-                <p className="text-muted-foreground text-sm">
+                <h3 className="text-lg font-semibold mb-2">{t.contact.location}</h3>          
+                 <a href="https://maps.app.goo.gl/hRx2rD4KTJcrMVaFA" target="_blank" className="text-muted-foreground hover:text-primary transition-colors hover:underline">
                   {t.contact.address}
-                </p>
+                </a>
               </CardContent>
             </Card>
           </div>
