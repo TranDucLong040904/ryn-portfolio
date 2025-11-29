@@ -5,8 +5,8 @@
 
 # 🌟 Ryn Portfolio - Personal Website
 
-![Banner](https://via.placeholder.com/1200x400?text=Ryn+Portfolio+Banner)
-*(Bạn hãy thay link ảnh banner vào đây)*
+<img width="1888" height="835" alt="image" src="https://github.com/user-attachments/assets/bb32951d-4f2b-4287-85d5-813245eecb73" />
+
 
 <div align="center">
 
@@ -115,30 +115,38 @@ ryn-portfolio/
 ## 🖼️ Demo Screenshots
 <details> <summary>💻 <b>Desktop View - Click to view</b></summary>
 
-1. Homepage (Hero Section) (Bạn thay link ảnh chụp màn hình Home vào đây)
+1. Homepage (Hero Section) 
+<img width="1886" height="832" alt="image" src="https://github.com/user-attachments/assets/f7b53080-9930-43ea-b910-b83b46d7e15a" />
+
 
 2. Portfolio Grid
+<img width="1850" height="794" alt="image" src="https://github.com/user-attachments/assets/fff1dcd9-a4ee-4495-b283-cbf8634aa1a7" />
+
 
 3. About & Skills
+<img width="1830" height="706" alt="image" src="https://github.com/user-attachments/assets/5bf73b01-df5a-4b51-b80c-12b9054e8857" />
+
 
 </details>
 
 <details> <summary>📱 <b>Mobile View - Click to view</b></summary>
 
 1. Mobile Menu
+<img width="421" height="830" alt="image" src="https://github.com/user-attachments/assets/0fea419a-20b2-414a-9431-c1b3cbf4d37c" />
 
 2. Project Details
+<img width="424" height="837" alt="image" src="https://github.com/user-attachments/assets/df3d8a50-74ec-4fcd-b09e-08df35428e6c" />
 
 </details>
 
 ## 📜 License (Copyright)
-This project is created as a personal gift and portfolio.
+This project was created as a personal gift and portfolio.
 
 ✅ Allowed: Viewing source code for educational purposes.
 
 ❌ Not Allowed: Using this source code for commercial purposes without permission.
 
-The project currently does not have a formal LICENSE file.
+The project currently doesn't have a formal LICENSE file.
 
 ## 🔗 References
 
