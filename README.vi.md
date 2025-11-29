@@ -5,8 +5,7 @@
 
 # 🌟 Ryn Portfolio - Website Cá Nhân
 
-![Banner](https://via.placeholder.com/1200x400?text=Ryn+Portfolio+Banner)
-*(Bạn hãy thay link ảnh banner vào đây)*
+<img width="1888" height="835" alt="image" src="https://github.com/user-attachments/assets/bb32951d-4f2b-4287-85d5-813245eecb73" />
 
 <div align="center">
 
@@ -118,11 +117,16 @@ ryn-portfolio/
 <details> <summary>💻 <b>Giao Diện Máy Tính (Desktop) - Nhấn để xem</b></summary>
 
 
-1. Trang Chủ (Hero Section) (Bạn thay link ảnh chụp màn hình Home vào đây)
+1. Trang Chủ (Hero Section)
+<img width="1886" height="832" alt="image" src="https://github.com/user-attachments/assets/33d1fbda-f710-4433-9bca-b5767ffb9ea8" />
+
 
 2. Danh Sách Dự Án (Portfolio Grid)
+<img width="1850" height="794" alt="image" src="https://github.com/user-attachments/assets/54b9fc0d-47b5-4cd4-a3dc-cc764acf001e" />
+
 
 3. Giới Thiệu & Kỹ Năng
+<img width="1830" height="706" alt="image" src="https://github.com/user-attachments/assets/4e6c9528-1a30-41f4-9373-1674d040b16c" />
 
 </details>
 
@@ -130,8 +134,10 @@ ryn-portfolio/
 
 
 1. Menu Mobile
+<img width="421" height="830" alt="image" src="https://github.com/user-attachments/assets/f85c316e-9e80-42cf-bfaa-47f320d2e6be" />
 
 2. Chi Tiết Dự Án
+<img width="424" height="837" alt="image" src="https://github.com/user-attachments/assets/6444f536-db79-4e57-abd1-1e0c0012c9dd" />
 
 </details>
 
