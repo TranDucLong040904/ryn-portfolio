@@ -374,7 +374,7 @@ export const translations = {
       email: "Email",
       phone: "Điện thoại",
       location: "Địa chỉ",
-      address: "174 Mai Anh Tuấn, Q. Đống Đa, Hà Nội",
+      address: "174 Mai Anh Tuấn, Đống Đa, Hà Nội",
       social: "Kết nối với tôi"
     },
     footer: {
