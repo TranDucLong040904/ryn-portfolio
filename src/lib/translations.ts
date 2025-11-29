@@ -52,36 +52,36 @@ export const translations = {
     },
     projects: {
       title: "Featured Projects",
-      subtitle: "Game Marketing Campaigns",
+      subtitle: "Key game titles I've successfully launched and managed",
       viewDetails: "View Details",
       projects: [
         {
           title: "Tru Tien 3D",
-          description: "Successfully launched the mobile game project, surpassing first-month performance targets with 1M+ downloads, 15M+ views on viral campaign videos, and 16 large-scale offline community events that significantly boosted brand visibility and player engagement.",
-          metrics: ["1M+ Downloads", "15M+ Video Views", "16 Offline Events", "Top 3 Grossing"],
-          tags: ["IMC Campaign", "Digital Marketing", "KOL Management", "Community Events", "Music Video"],
-          link: "https://trutien.gamota.com"
+          description: "Successfully launched mobile game with strong first-month performance",
+          metrics: ["1M+ downloads", "15M+ views on viral campaign videos", "16 large-scale offline community events"],
+          tags: ["Launch Campaign", "Community Events", "Influencer Marketing", "Music Video x Jangmi"],
+          link: "https://trutien.gamota.com/"
         },
         {
-          title: "Thieu Nien Anh Hung",
-          description: "Drove a high-impact launch, achieving 110% in first-month revenue target with ROI 1:1, while organic NRU exceeded 130% of KPI and maintained stable growth throughout the first quarter, strengthening the game's long-term performance.",
-          metrics: ["110% Revenue Target", "ROI 1:1", "130% Organic NRU", "TVC x Tuan Hung"],
-          tags: ["Performance Marketing", "Youth Marketing", "Music Video", "A-list Celebrity", "User Acquisition"],
-          link: "https://thieunien.gamota.com"
+          title: "Thiếu Niên Anh Hùng",
+          description: "Mobile game launch exceeding revenue targets",
+          metrics: ["110% first-month revenue target with ROI 1:1", "130% organic NRU of KPI"],
+          tags: ["Launch Campaign", "Performance Marketing", "TVC x Tuấn Hưng"],
+          link: "https://thieunien.gamota.com/"
         },
         {
-          title: "Tieu Ngao Giang Ho",
-          description: "Successfully executed comprehensive marketing campaign featuring offline community events, influencer partnerships, and integrated digital marketing, driving strong player engagement and community growth.",
-          metrics: ["High Engagement", "Community Events", "Influencer Campaign", "Strong ROI"],
-          tags: ["IMC Campaign", "Community Events", "KOL Management", "Digital Marketing"],
-          link: "https://tieuongao.gamota.com"
+          title: "Tiêu Ngạo Giang Hồ",
+          description: "Record-breaking mobile game launch campaign",
+          metrics: ["30% increase in active users (record-breaking first month)", "12% growth in paying users"],
+          tags: ["Launch Campaign", "User Acquisition", "Tiếu Ngạo x Action C"],
+          link: "https://tieuongao.gamota.com/"
         },
         {
-          title: "Tran Ma AFK",
-          description: "Spearheaded the go-to-market strategy, delivering 110% NRU and 120% organic NRU in the first launch month, and reducing CPN by 40% compared to KPI through optimized UA and branding, significantly improving acquisition efficiency.",
-          metrics: ["110% NRU Target", "120% Organic NRU", "-40% CPN", "Action C x 1.2M Views"],
-          tags: ["Performance Marketing", "Data Analytics", "User Acquisition", "KOL Campaign", "CPN Optimization"],
-          link: "https://tranma.gamota.com"
+          title: "Trấn Ma AFK",
+          description: "Efficient launch campaign with optimized UA strategy",
+          metrics: ["110% NRU & 120% organic NRU in first month", "40% CPN reduction vs KPI"],
+          tags: ["Launch Campaign", "UA Optimization", "Trấn Ma x Action C"],
+          link: "https://tranmaafk.gamota.com/"
         }
       ]
     },
@@ -156,22 +156,25 @@ export const translations = {
     },
     platforms: {
       title: "Platforms & Tools",
-      subtitle: "Technologies and platforms I work with",
+      subtitle: "Technology stack I work with",
       items: [
-        { name: "Google Analytics", category: "Analytics" },
+        { name: "Google Analytics", category: "Analytics & Data" },
+        { name: "Data.ai", category: "Analytics & Data" },
+        { name: "Appsflyer", category: "Analytics & Data" },
         { name: "Google Ads", category: "Advertising" },
-        { name: "Data.ai", category: "Analytics" },
         { name: "Meta Ads", category: "Advertising" },
-        { name: "Appsflyer", category: "Analytics" },
         { name: "TikTok Ads", category: "Advertising" },
-        { name: "CapCut", category: "Design" },
-        { name: "Canva", category: "Design" },
-        { name: "Photoshop", category: "Design" },
-        { name: "Excel", category: "Analytics" },
-        { name: "PowerPoint", category: "Design" },
         { name: "Facebook Blueprint", category: "Advertising" },
-        { name: "Notion", category: "Design" },
-        { name: "Vero", category: "Social Media" }
+        { name: "TikTok", category: "Social Media" },
+        { name: "CapCut", category: "Creative & Productivity" },
+        { name: "Canva", category: "Creative & Productivity" },
+        { name: "Photoshop", category: "Creative & Productivity" },
+        { name: "Google Sheets", category: "Creative & Productivity" },
+        { name: "PowerPoint", category: "Creative & Productivity" },
+        { name: "AI Tools", category: "Creative & Productivity" },
+        { name: "Notion", category: "Creative & Productivity" },
+        { name: "Trello", category: "Creative & Productivity" },
+        { name: "Jira", category: "Creative & Productivity" }
       ]
     },
     contact: {
@@ -239,37 +242,37 @@ export const translations = {
       ]
     },
     projects: {
-      title: "Dự án nổi bật",
-      subtitle: "Chiến dịch Marketing Game",
-      viewDetails: "Xem chi tiết",
+      title: "Dự Án Nổi Bật",
+      subtitle: "Các game chủ chốt tôi đã launch và quản lý thành công",
+      viewDetails: "Xem Chi Tiết",
       projects: [
         {
-          title: "Tru Tien 3D",
-          description: "Ra mắt thành công dự án game mobile, vượt mục tiêu tháng đầu với 1 triệu+ lượt tải, 15 triệu+ lượt xem video viral và 16 sự kiện cộng đồng offline quy mô lớn giúp tăng đáng kể nhận diện thương hiệu và sự gắn kết người chơi.",
-          metrics: ["1 triệu+ Lượt tải", "15 triệu+ Lượt xem Video", "16 Sự kiện Offline", "Top 3 Doanh thu"],
-          tags: ["Chiến dịch IMC", "Marketing Số", "Quản lý KOL", "Sự kiện Cộng đồng", "Music Video"],
-          link: "https://trutien.gamota.com"
+          title: "Tru Tiên 3D",
+          description: "Ra mắt game mobile thành công với hiệu suất tháng đầu mạnh mẽ",
+          metrics: ["1 triệu+ lượt tải", "15 triệu+ lượt xem video chiến dịch", "16 sự kiện offline quy mô lớn"],
+          tags: ["Chiến Dịch Ra Mắt", "Sự Kiện Cộng Đồng", "Influencer Marketing", "MV x Jangmi"],
+          link: "https://trutien.gamota.com/"
         },
         {
           title: "Thiếu Niên Anh Hùng",
-          description: "Thúc đẩy ra mắt có tác động cao, đạt 110% mục tiêu doanh thu tháng đầu với ROI 1:1, trong khi NRU tự nhiên vượt 130% KPI và duy trì tăng trưởng ổn định quý đầu tiên, củng cố hiệu suất dài hạn của game.",
-          metrics: ["110% Mục tiêu Doanh thu", "ROI 1:1", "130% NRU Tự nhiên", "TVC x Tuấn Hưng"],
-          tags: ["Performance Marketing", "Marketing Giới trẻ", "Music Video", "Nghệ sĩ Hạng A", "Thu hút Người dùng"],
-          link: "https://thieunien.gamota.com"
+          description: "Ra mắt game mobile vượt chỉ tiêu doanh thu",
+          metrics: ["Đạt 110% mục tiêu doanh thu tháng đầu với ROI 1:1", "130% organic NRU so với KPI"],
+          tags: ["Chiến Dịch Ra Mắt", "Performance Marketing", "TVC x Tuấn Hưng"],
+          link: "https://thieunien.gamota.com/"
         },
         {
           title: "Tiêu Ngạo Giang Hồ",
-          description: "Thực hiện chiến dịch marketing toàn diện với sự kiện cộng đồng offline, hợp tác influencer và marketing digital tích hợp, thúc đẩy tương tác người chơi và tăng trưởng cộng đồng mạnh mẽ.",
-          metrics: ["Tương tác Cao", "Sự kiện Cộng đồng", "Chiến dịch Influencer", "ROI Tốt"],
-          tags: ["Chiến dịch IMC", "Sự kiện Cộng đồng", "Quản lý KOL", "Marketing Số"],
-          link: "https://tieuongao.gamota.com"
+          description: "Chiến dịch ra mắt game phá kỷ lục",
+          metrics: ["Tăng 30% người dùng hoạt động (kỷ lục tháng đầu)", "Tăng 12% người dùng trả phí"],
+          tags: ["Chiến Dịch Ra Mắt", "Thu Hút Người Dùng", "Tiếu Ngạo x Action C"],
+          link: "https://tieuongao.gamota.com/"
         },
         {
           title: "Trấn Ma AFK",
-          description: "Dẫn dắt chiến lược go-to-market, đạt 110% NRU và 120% NRU tự nhiên tháng ra mắt, giảm CPN 40% so với KPI thông qua tối ưu UA và branding, cải thiện đáng kể hiệu quả thu hút.",
-          metrics: ["110% Mục tiêu NRU", "120% NRU Tự nhiên", "-40% CPN", "Action C x 1.2 triệu Lượt xem"],
-          tags: ["Performance Marketing", "Phân tích Dữ liệu", "Thu hút Người dùng", "Chiến dịch KOL", "Tối ưu CPN"],
-          link: "https://tranma.gamota.com"
+          description: "Chiến dịch ra mắt hiệu quả với chiến lược UA tối ưu",
+          metrics: ["110% NRU & 120% organic NRU trong tháng đầu", "Giảm 40% CPN so với KPI"],
+          tags: ["Chiến Dịch Ra Mắt", "Tối Ưu UA", "Trấn Ma x Action C"],
+          link: "https://tranmaafk.gamota.com/"
         }
       ]
     },
@@ -343,23 +346,26 @@ export const translations = {
       ]
     },
     platforms: {
-      title: "Nền tảng & Công cụ",
-      subtitle: "Các công nghệ và nền tảng tôi sử dụng",
+      title: "Nền Tảng & Công Cụ",
+      subtitle: "Công nghệ tôi sử dụng trong công việc",
       items: [
-        { name: "Google Analytics", category: "Phân tích" },
+        { name: "Google Analytics", category: "Phân tích & Dữ liệu" },
+        { name: "Data.ai", category: "Phân tích & Dữ liệu" },
+        { name: "Appsflyer", category: "Phân tích & Dữ liệu" },
         { name: "Google Ads", category: "Quảng cáo" },
-        { name: "Data.ai", category: "Phân tích" },
         { name: "Meta Ads", category: "Quảng cáo" },
-        { name: "Appsflyer", category: "Phân tích" },
         { name: "TikTok Ads", category: "Quảng cáo" },
-        { name: "CapCut", category: "Thiết kế" },
-        { name: "Canva", category: "Thiết kế" },
-        { name: "Photoshop", category: "Thiết kế" },
-        { name: "Excel", category: "Phân tích" },
-        { name: "PowerPoint", category: "Thiết kế" },
         { name: "Facebook Blueprint", category: "Quảng cáo" },
-        { name: "Notion", category: "Thiết kế" },
-        { name: "Vero", category: "Mạng xã hội" }
+        { name: "TikTok", category: "Mạng xã hội" },
+        { name: "CapCut", category: "Sáng tạo & Năng suất" },
+        { name: "Canva", category: "Sáng tạo & Năng suất" },
+        { name: "Photoshop", category: "Sáng tạo & Năng suất" },
+        { name: "Google Sheets", category: "Sáng tạo & Năng suất" },
+        { name: "PowerPoint", category: "Sáng tạo & Năng suất" },
+        { name: "AI Tools", category: "Sáng tạo & Năng suất" },
+        { name: "Notion", category: "Sáng tạo & Năng suất" },
+        { name: "Trello", category: "Sáng tạo & Năng suất" },
+        { name: "Jira", category: "Sáng tạo & Năng suất" }
       ]
     },
     contact: {

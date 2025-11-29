@@ -1,14 +1,26 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { BarChart3, Megaphone, Share2, Palette, Music, Video, Scissors, Image, FileSpreadsheet, Presentation, Facebook, StickyNote, Mail } from "lucide-react";
+import { BarChart3, Megaphone, Share2, Wrench } from "lucide-react";
 
 // Import platform images
-import googleAnalyticsImg from "@/assets/platform-google-analytics.jpg";
-import googleAdsImg from "@/assets/platform-google-ads.jpg";
-import dataAiImg from "@/assets/platform-dataai.jpg";
-import metaAdsImg from "@/assets/platform-meta-ads.jpg";
-import appsflyerImg from "@/assets/platform-appsflyer.jpg";
+import googleAnalyticsImg from "@/assets/platform-google-analytics.png";
+import googleAdsImg from "@/assets/platform-google-ads.png";
+import dataAiImg from "@/assets/platform-dataai.png";
+import metaAdsImg from "@/assets/platform-meta-ads.png";
+import appsflyerImg from "@/assets/platform-appsflyer.png";
+import tiktokImg from "@/assets/platform-tiktok.png";
+import canvaImg from "@/assets/platform-canva.png";
+import photoshopImg from "@/assets/platform-photoshop.png";
+import excelImg from "@/assets/platform-excel.png";
+import powerpointImg from "@/assets/platform-powerpoint.png";
+import facebookImg from "@/assets/platform-facebook.png";
+import notionImg from "@/assets/platform-notion.png";
+import capcutImg from "@/assets/platform-capcut.png";
+import googleSheetsImg from "@/assets/platform-google-sheets.png";
+import trelloImg from "@/assets/platform-trello.png";
+import jiraImg from "@/assets/platform-jira.png";
+import aiToolsImg from "@/assets/platform-ai-tools.png";
 
 const Platforms = () => {
   const { t } = useLanguage();
@@ -19,34 +31,32 @@ const Platforms = () => {
     "Google Ads": googleAdsImg,
     "Data.ai": dataAiImg,
     "Meta Ads": metaAdsImg,
-    "Appsflyer": appsflyerImg
-  };
-
-  // Platform specific icons for those without images
-  const platformIcons: { [key: string]: React.ComponentType<any> } = {
-    "TikTok Ads": Video,
-    "TikTok": Music,
-    "Canva": Palette,
-    "Capcut": Scissors,
-    "CapCut": Scissors,
-    "Photoshop": Image,
-    "Excel": FileSpreadsheet,
-    "PowerPoint": Presentation,
-    "Facebook Blueprint": Facebook,
-    "Notion": StickyNote,
-    "Vero": Mail
+    "Appsflyer": appsflyerImg,
+    "TikTok": tiktokImg,
+    "TikTok Ads": tiktokImg,
+    "Canva": canvaImg,
+    "Photoshop": photoshopImg,
+    "Excel": excelImg,
+    "PowerPoint": powerpointImg,
+    "Facebook Blueprint": facebookImg,
+    "Notion": notionImg,
+    "CapCut": capcutImg,
+    "Google Sheets": googleSheetsImg,
+    "Trello": trelloImg,
+    "Jira": jiraImg,
+    "AI Tools": aiToolsImg
   };
 
   // Category icons mapping
   const categoryIcons: { [key: string]: React.ComponentType<any> } = {
-    "Analytics": BarChart3,
-    "Phân tích": BarChart3,
+    "Analytics & Data": BarChart3,
+    "Phân tích & Dữ liệu": BarChart3,
     "Advertising": Megaphone,
     "Quảng cáo": Megaphone,
     "Social Media": Share2,
     "Mạng xã hội": Share2,
-    "Design": Palette,
-    "Thiết kế": Palette
+    "Creative & Productivity": Wrench,
+    "Sáng tạo & Năng suất": Wrench
   };
   
   // Group platforms by category
@@ -99,10 +109,9 @@ const Platforms = () => {
                       </Badge>
                     </div>
                     
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 sm:gap-6">
                       {platforms.map((platform: any, index: number) => {
-                        const hasImage = platformImages[platform.name];
-                        const PlatformIcon = platformIcons[platform.name];
+                        const platformImage = platformImages[platform.name];
                         
                         return (
                           <div
@@ -110,20 +119,16 @@ const Platforms = () => {
                             className="group relative bg-gradient-to-br from-background to-muted/30 rounded-2xl border-2 border-border/50 hover:border-primary/50 transition-all duration-300 overflow-hidden hover-lift p-5"
                           >
                             <div className="flex flex-col items-center justify-center gap-3">
-                              {hasImage ? (
-                                <div className="w-16 h-16 rounded-full overflow-hidden ring-0 group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 group-hover:scale-110 bg-white dark:bg-background">
+                              {platformImage ? (
+                                <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center bg-white dark:bg-background shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-110">
                                   <img 
-                                    src={hasImage} 
+                                    src={platformImage} 
                                     alt={platform.name}
-                                    className="w-full h-full object-contain p-2"
+                                    className="w-12 h-12 object-contain"
                                   />
                                 </div>
-                              ) : PlatformIcon ? (
-                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center ring-0 group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 group-hover:scale-110">
-                                  <PlatformIcon className="w-8 h-8 text-primary" />
-                                </div>
                               ) : (
-                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center ring-0 group-hover:ring-2 group-hover:ring-primary/30 transition-all duration-300 group-hover:scale-110">
+                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-110">
                                   <span className="text-2xl font-bold text-muted-foreground">
                                     {platform.name.charAt(0)}
                                   </span>
