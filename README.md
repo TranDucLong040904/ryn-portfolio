@@ -1,4 +1,4 @@
-# Welcome to your Lovable project Tran Duc Long
+# Welcome to your Lovable project
 
 ## Project info
 
