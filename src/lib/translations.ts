@@ -60,28 +60,28 @@ export const translations = {
           description: "Successfully launched mobile game with strong first-month performance",
           metrics: ["1M+ downloads", "15M+ views on viral campaign videos", "16 large-scale offline community events"],
           tags: ["Launch Campaign", "Community Events", "Influencer Marketing", "Music Video x Jangmi"],
-          link: "https://trutien.gamota.com/"
+          link: "https://www.facebook.com/AoMongTruTien.Gamota/videos/1577537873078318" 
         },
         {
           title: "Thiếu Niên Anh Hùng",
           description: "Mobile game launch exceeding revenue targets",
           metrics: ["110% first-month revenue target with ROI 1:1", "130% organic NRU of KPI"],
           tags: ["Launch Campaign", "Performance Marketing", "TVC x Tuấn Hưng"],
-          link: "https://thieunien.gamota.com/"
+          link: "https://www.facebook.com/reel/284759180536226"
         },
         {
           title: "Tiếu Ngạo Giang Hồ",
           description: "Record-breaking mobile game launch campaign",
           metrics: ["30% increase in active users (record-breaking first month)", "12% growth in paying users"],
           tags: ["Launch Campaign", "User Acquisition", "Tiếu Ngạo x Action C"],
-          link: "https://tieuongao.gamota.com/"
+          link: "https://www.youtube.com/watch?v=XxsKRHeSLlk"
         },
         {
           title: "Trấn Ma AFK",
           description: "Efficient launch campaign with optimized UA strategy",
           metrics: ["110% NRU & 120% organic NRU in first month", "40% CPN reduction vs KPI"],
           tags: ["Launch Campaign", "UA Optimization", "Trấn Ma x Action C"],
-          link: "https://tranmaafk.gamota.com/"
+          link: "https://www.youtube.com/watch?v=8O61BnvtrvQ"
         }
       ]
     },
@@ -96,7 +96,7 @@ export const translations = {
           metrics: ["Tens of thousands attendees", "100+ Exhibitors", "Best Publisher 2024", "45,702 Votes"],
           tags: ["Gaming Festival", "Game Awards", "Cosplay Contest", "GAMOTA Booth", "Community"],
           images: [],
-          link: "https://gameverse.vn"
+          link: "https://www.facebook.com/reel/1640285576608307",
         },
         {
           title: "Game Launch Offline Events",
@@ -104,7 +104,7 @@ export const translations = {
           metrics: ["150-250% Revenue KPI", "80-200% ROE", "Multiple Titles", "Professional Production"],
           tags: ["Product Launch", "Offline Events", "Stage Design", "ROE Optimization"],
           images: [],
-          link: "https://events.gamota.com"
+          link: "https://www.facebook.com/reel/541972735190707"
         },
         {
           title: "Autumn Fest 2025",
@@ -112,7 +112,7 @@ export const translations = {
           metrics: ["8,000+ Attendees", "Music Festival", "Cultural Event", "Vinhomes Royal Island"],
           tags: ["Music & Culture", "Large-scale Event", "Community", "Entertainment"],
           images: [],
-          link: "https://autumnfest.gamota.com"
+          link: "https://taichinhthoidaiso.com/autumn-fest-2025-dau-an-ruc-ro-cua-keight-entertainment-2/"
         },
         {
           title: "K-Eight Events",
@@ -120,7 +120,7 @@ export const translations = {
           metrics: ["500-1,000 Attendees", "Event Series", "Brand Awareness", "Multiple Venues"],
           tags: ["Entertainment", "Event Series", "Music & DJ", "Nightlife"],
           images: [],
-          link: "https://keight.vn"
+          link: "https://www.facebook.com/watch/?v=1345802056682522"
         }
       ]
     },
@@ -251,28 +251,28 @@ export const translations = {
           description: "Ra mắt game mobile thành công với hiệu suất tháng đầu mạnh mẽ",
           metrics: ["1 triệu+ lượt tải", "15 triệu+ lượt xem video chiến dịch", "16 sự kiện offline quy mô lớn"],
           tags: ["Chiến Dịch Ra Mắt", "Sự Kiện Cộng Đồng", "Influencer Marketing", "MV x Jangmi"],
-          link: "https://trutien.gamota.com/"
+          link: "https://www.facebook.com/AoMongTruTien.Gamota/videos/1577537873078318" 
         },
         {
           title: "Thiếu Niên Anh Hùng",
           description: "Ra mắt game mobile vượt chỉ tiêu doanh thu",
           metrics: ["Đạt 110% mục tiêu doanh thu tháng đầu với ROI 1:1", "130% organic NRU so với KPI"],
           tags: ["Chiến Dịch Ra Mắt", "Performance Marketing", "TVC x Tuấn Hưng"],
-          link: "https://thieunien.gamota.com/"
+          link: "https://www.facebook.com/reel/284759180536226"
         },
         {
           title: "Tiếu Ngạo Giang Hồ",
           description: "Chiến dịch ra mắt game phá kỷ lục",
           metrics: ["Tăng 30% người dùng hoạt động (kỷ lục tháng đầu)", "Tăng 12% người dùng trả phí"],
           tags: ["Chiến Dịch Ra Mắt", "Thu Hút Người Dùng", "Tiếu Ngạo x Action C"],
-          link: "https://tieuongao.gamota.com/"
+          link: "https://www.youtube.com/watch?v=XxsKRHeSLlk"
         },
         {
           title: "Trấn Ma AFK",
           description: "Chiến dịch ra mắt hiệu quả với chiến lược UA tối ưu",
           metrics: ["110% NRU & 120% organic NRU trong tháng đầu", "Giảm 40% CPN so với KPI"],
           tags: ["Chiến Dịch Ra Mắt", "Tối Ưu UA", "Trấn Ma x Action C"],
-          link: "https://tranmaafk.gamota.com/"
+          link: "https://www.youtube.com/watch?v=8O61BnvtrvQ"
         }
       ]
     },
@@ -287,7 +287,7 @@ export const translations = {
           metrics: ["Hàng chục nghìn người tham dự", "100+ Nhà triển lãm", "Nhà phát hành tốt nhất 2024", "45,702 Phiếu bầu"],
           tags: ["Lễ hội Game", "Game Awards", "Thi Cosplay", "Gian hàng GAMOTA", "Cộng đồng"],
           images: [],
-          link: "https://gameverse.vn"
+          link: "https://www.facebook.com/reel/1640285576608307",
         },
         {
           title: "Sự kiện Offline Ra mắt Game",
@@ -295,7 +295,7 @@ export const translations = {
           metrics: ["150-250% KPI Doanh thu", "80-200% ROE", "Nhiều Tựa game", "Sản xuất Chuyên nghiệp"],
           tags: ["Ra mắt Sản phẩm", "Sự kiện Offline", "Thiết kế Sân khấu", "Tối ưu ROE"],
           images: [],
-          link: "https://events.gamota.com"
+          link: "https://www.facebook.com/reel/541972735190707"
         },
         {
           title: "Autumn Fest 2025",
@@ -303,7 +303,7 @@ export const translations = {
           metrics: ["8,000+ Người tham dự", "Lễ hội Âm nhạc", "Sự kiện Văn hóa", "Vinhomes Royal Island"],
           tags: ["Âm nhạc & Văn hóa", "Sự kiện Quy mô lớn", "Cộng đồng", "Giải trí"],
           images: [],
-          link: "https://autumnfest.gamota.com"
+          link: "https://taichinhthoidaiso.com/autumn-fest-2025-dau-an-ruc-ro-cua-keight-entertainment-2/"
         },
         {
           title: "Sự kiện K-Eight",
@@ -311,7 +311,7 @@ export const translations = {
           metrics: ["500-1.000 Người tham dự", "Chuỗi sự kiện", "Nhận diện thương hiệu", "Nhiều Địa điểm"],
           tags: ["Giải trí", "Chuỗi sự kiện", "Âm nhạc & DJ", "Nightlife"],
           images: [],
-          link: "https://keight.vn"
+          link: "https://www.facebook.com/watch/?v=1345802056682522"
         }
       ]
     },
