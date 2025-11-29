@@ -13,10 +13,10 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-bold gradient-text">Ryn</span>
+            <span className="text-xl sm:text-2xl font-bold gradient-text">Ryn</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -67,7 +67,7 @@ const Header = () => {
             </button>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 sm:gap-2">
             <Button
               variant="ghost"
               size="icon"
@@ -75,8 +75,8 @@ const Header = () => {
               className="hover-lift"
               aria-label="Toggle language"
             >
-              <Globe className="h-5 w-5" />
-              <span className="ml-1 text-xs">{language.toUpperCase()}</span>
+              <Globe className="h-4 w-4 sm:h-5 sm:w-5" />
+              <span className="hidden sm:inline ml-1 text-xs">{language.toUpperCase()}</span>
             </Button>
             
             <Button
@@ -87,9 +87,9 @@ const Header = () => {
               aria-label="Toggle theme"
             >
               {theme === 'light' ? (
-                <Moon className="h-5 w-5" />
+                <Moon className="h-4 w-4 sm:h-5 sm:w-5" />
               ) : (
-                <Sun className="h-5 w-5" />
+                <Sun className="h-4 w-4 sm:h-5 sm:w-5" />
               )}
             </Button>
           </div>

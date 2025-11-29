@@ -109,33 +109,33 @@ const Platforms = () => {
                       </Badge>
                     </div>
                     
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 sm:gap-6">
+                    <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 sm:gap-4 md:gap-6">
                       {platforms.map((platform: any, index: number) => {
                         const platformImage = platformImages[platform.name];
                         
                         return (
                           <div
                             key={index}
-                            className="group relative bg-gradient-to-br from-background to-muted/30 rounded-2xl border-2 border-border/50 hover:border-primary/50 transition-all duration-300 overflow-hidden hover-lift p-5"
+                            className="group relative bg-gradient-to-br from-background to-muted/30 rounded-lg sm:rounded-2xl border-2 border-border/50 hover:border-primary/50 transition-all duration-300 overflow-hidden hover-lift p-3 sm:p-5"
                           >
                             <div className="flex flex-col items-center justify-center gap-3">
                               {platformImage ? (
-                                <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center bg-white dark:bg-background shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-110">
+                                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden flex items-center justify-center bg-white dark:bg-background shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-110">
                                   <img 
                                     src={platformImage} 
                                     alt={platform.name}
-                                    className="w-12 h-12 object-contain"
+                                    className="w-8 sm:w-12 h-8 sm:h-12 object-contain"
                                   />
                                 </div>
                               ) : (
-                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-110">
-                                  <span className="text-2xl font-bold text-muted-foreground">
+                                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-br from-muted to-muted/50 flex items-center justify-center shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-110">
+                                  <span className="text-lg sm:text-2xl font-bold text-muted-foreground">
                                     {platform.name.charAt(0)}
                                   </span>
                                 </div>
                               )}
                               
-                              <span className="font-semibold text-sm text-foreground text-center leading-tight">
+                              <span className="font-semibold text-xs sm:text-sm text-foreground text-center leading-tight">
                                 {platform.name}
                               </span>
                             </div>

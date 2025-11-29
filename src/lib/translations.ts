@@ -70,7 +70,7 @@ export const translations = {
           link: "https://thieunien.gamota.com/"
         },
         {
-          title: "Tiêu Ngạo Giang Hồ",
+          title: "Tiếu Ngạo Giang Hồ",
           description: "Record-breaking mobile game launch campaign",
           metrics: ["30% increase in active users (record-breaking first month)", "12% growth in paying users"],
           tags: ["Launch Campaign", "User Acquisition", "Tiếu Ngạo x Action C"],
@@ -208,7 +208,7 @@ export const translations = {
     },
     about: {
       title: "Giới thiệu",
-      subtitle: "Trưởng phòng Marketing & Chuyên gia Chiến lược",
+      subtitle: "Trưởng phòng Marketing & Chuyên gia chiến lược",
       description: "Chuyên gia hoạch định chiến lược với hơn 10 năm kinh nghiệm trong marketing tích hợp dựa trên dữ liệu qua các kênh số và truyền thống. Chuyên môn về chiến dịch IMC, marketing số, quản lý KOL, PR, phát triển thương hiệu, phân tích dữ liệu và quản lý dự án.",
       keyAchievements: "Thành tựu nổi bật",
       achievements: [
@@ -229,13 +229,13 @@ export const translations = {
         },
         {
           period: "2014 - 2022",
-          role: "Chuyên gia Chiến lược",
+          role: "Chuyên gia chiến lược",
           company: "GAMOTA & Perfect World Games",
           description: "Phát triển chiến lược thương hiệu và thực hiện 50+ chiến dịch IMC với ngân sách trung bình 20 tỷ VND. Hợp tác với 60+ KOL bao gồm nghệ sĩ hạng A và influencer."
         },
         {
           period: "2024 - 2025",
-          role: "Quản lý Sự kiện",
+          role: "Quản lý sự kiện",
           company: "Entertainment",
           description: "Lên ý tưởng chủ đề, quản lý kế hoạch tổng thể, thiết kế sân khấu 2D/3D, P&L. Đảm bảo nghệ sĩ/KOL hạng A và quản lý mạng lưới địa điểm/nhà cung cấp."
         }
@@ -261,7 +261,7 @@ export const translations = {
           link: "https://thieunien.gamota.com/"
         },
         {
-          title: "Tiêu Ngạo Giang Hồ",
+          title: "Tiếu Ngạo Giang Hồ",
           description: "Chiến dịch ra mắt game phá kỷ lục",
           metrics: ["Tăng 30% người dùng hoạt động (kỷ lục tháng đầu)", "Tăng 12% người dùng trả phí"],
           tags: ["Chiến Dịch Ra Mắt", "Thu Hút Người Dùng", "Tiếu Ngạo x Action C"],
@@ -378,7 +378,7 @@ export const translations = {
       social: "Kết nối với tôi"
     },
     footer: {
-      text: "© 2025 Nguyễn Tú Anh (Ryn). Trưởng phòng Marketing | Chuyên gia Chiến lược | Quản lý Sự kiện"
+      text: "© 2025 Nguyễn Tú Anh (Ryn). Trưởng phòng Marketing | Chuyên gia chiến lược | Quản lý sự kiện"
     }
   }
 };

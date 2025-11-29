@@ -47,7 +47,7 @@ const Events = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
+          <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
             {t.events.events.map((event: any, index: number) => {
               const eventImages = eventImagesMap[event.title] || [];
               
@@ -76,7 +76,7 @@ const Events = () => {
                     ))}
                   </div>
 
-                  <div className="p-6">
+                  <div className="p-3 sm:p-6">
                     <Dialog>
                       <DialogTrigger asChild>
                         <h3 className="text-2xl font-bold mb-3 cursor-pointer hover:text-primary transition-colors">
@@ -85,10 +85,10 @@ const Events = () => {
                       </DialogTrigger>
                       <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto">
                         <DialogHeader>
-                          <DialogTitle className="text-3xl mb-4">{event.title}</DialogTitle>
+                          <DialogTitle className="text-xl sm:text-2xl md:text-3xl mb-4">{event.title}</DialogTitle>
                           <DialogDescription asChild>
                             <div className="space-y-4">
-                              <p className="text-lg text-foreground">{event.description}</p>
+                              <p className="text-base sm:text-lg text-foreground">{event.description}</p>
                               <div className="flex flex-wrap gap-2">
                                 {event.metrics.map((metric: string, i: number) => (
                                   <Badge key={i} variant="secondary">{metric}</Badge>
